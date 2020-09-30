@@ -1,0 +1,300 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+body{
+    background-image: url(images/cover.jpeg);
+    background-size: cover;
+    perspective: 2000px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+.card
+{
+    width: 400px;
+    height: 500px;
+    margin: 100px auto;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 1s ease-in-out;
+    ba
+
+}
+.card:hover
+{
+    transform: rotateY(180deg)
+}
+.card > div
+{
+    width: 100%;
+    height: 100%;
+    font-family:tahoma,sans-serif;
+    position: absolute;
+    background-color: rgb(175, 197, 236);
+    border-radius: 20px;
+    border: 3px solid black;
+    text-align: center;
+
+}
+/*---------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------*/
+/*                                  .FRONT                                                */
+/*---------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------*/
+.card .front 
+{
+    z-index: 9;
+    backface-visibility: hidden;
+
+
+}
+.card .front header 
+{
+    background-color: rgb(65, 64, 68);
+    width: 100%;
+    height: 62px;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+
+}
+
+.card .front img{
+    width: 150px;
+    margin-top: 14px;
+    height:150px;
+    border-radius: 50%;
+}
+.card .front h2
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    margin-top: 100px;
+    padding: 10 auto
+}
+.card .front > p 
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px bold
+
+}
+.card .front hr{
+    -webkit-margin-start: 30px;
+    -webkit-margin-end: 30px;
+    border-width: 2px
+}
+
+.li 
+{
+    float: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px bold;
+}
+.card .front span
+{
+    display: inline-block;
+    margin-right: 8px;
+    text-align: center;
+    margin-top: 34px;
+    border-radius: 10px;
+    font-size: 30px;
+    border: 3px solid black;
+    padding: 0px 20px 5px;
+    background-color: #c2efba;
+}
+
+
+
+/*---------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------*/
+/*                                  .back                                                 */
+/*---------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------*/
+
+.card .back 
+
+{
+    z-index:4;
+    transform: rotateY(180deg)
+}
+.card .back div.signup
+{
+    width: 100%;
+    height: 10%;
+    background-color: #7678bebd;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    font-size: 35px;
+    font-weight: bold
+
+
+}
+
+.card .back input
+{
+    width: 75%;;
+    padding: 7px;
+    margin: 15px auto;
+    border-radius: 7px;
+    background-color:rgb(211, 238, 248)
+}
+.card .back div.nickname > input
+{
+    width: 32%;
+    display:inline;
+    margin-right: 10px;
+    margin-left: 10px;
+
+
+}
+.card .back button
+{
+    display: block;
+    text-transform: uppercase;
+    font-size: 40px;
+    border-radius: 40px;
+    height: 50px;
+    width: 320px;
+    margin: 40px auto 5px ;
+    background-color:rgb(211, 238, 248);
+
+}
+
+
+.card .back button:active
+{
+    background-color:rgb(159, 218, 240)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
